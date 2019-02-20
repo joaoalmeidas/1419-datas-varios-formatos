@@ -5,11 +5,11 @@ public class Data {
 	private int mes;
 	private int ano;
 	
-	public Data(int[] data) {
+	public Data(String[] data) {
 		
-		mes = data[0];
-		dia = data[1];
-		ano = data[2];
+		mes = Integer.parseInt(data[0]);
+		dia = Integer.parseInt(data[1]);
+		ano = Integer.parseInt(data[2]);
 		
 	}
 	
